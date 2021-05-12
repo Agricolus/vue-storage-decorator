@@ -1,6 +1,6 @@
 {
-  "name": "vue-storage-decorator",
-  "version": "1.0.7",
+  "name": "@agricolus/vue-storage-decorator",
+  "version": "1.0.8",
   "description": "Give a Persist decorator to persist vue object properties to some storage",
   "main": "dist/vue-storage-decorator.js",
   "ts:main": "src/index.ts",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eddow/vue-storage-decorator.git"
+    "url": "git+https://github.com/Agricolus/vue-storage-decorator.git"
   },
   "keywords": [
     "vue",
@@ -23,10 +23,9 @@
   "author": "fmdm",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eddow/vue-storage-decorator/issues"
+    "url": "https://github.com/Agricolus/vue-storage-decorator/issues"
   },
-  "homepage": "https://github.com/eddow/vue-storage-decorator#readme",
-  "dependencies": {},
+  "homepage": "https://github.com/Agricolus/vue-storage-decorator#readme",
   "devDependencies": {
     "rollup": "^1.7.4",
     "rollup-plugin-delete": "^0.2.1",
@@ -35,13 +34,13 @@
     "ts-loader": "^5.3.0",
     "typescript": "^3.1.6",
     "vue": "^2.5.17",
-    "vue-class-component": "^6.3.2",
+    "vue-class-component": "^7.2.6",
     "webpack": "^4.26.0",
     "webpack-cli": "^3.1.2",
     "webpack-node-externals": "^1.7.2"
   },
   "peerDependencies": {
     "vue": "^2.5.17",
-    "vue-class-component": "^6.3.2"
+    "vue-class-component": "^7.2.6"
   }
 }

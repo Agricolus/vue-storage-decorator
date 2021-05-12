@@ -15,8 +15,8 @@ copyDesc[local('./index.d.ts')] = local('dist/index.d.ts');
 export default {
 	input: local('src/index.ts'),
 	output: {
-		dir: local('dist'),
-		file: 'vue-storage-decorator.js',
+		//dir: local('dist'),
+		file: 'dist/vue-storage-decorator.js',
 		format: 'umd',
 		banner,
 		name: 'VueStorageDecorator',
